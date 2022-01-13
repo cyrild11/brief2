@@ -9,15 +9,15 @@
 <body>
   <form action="/my-handling-from-page" method="post">
     <div>
-        <input type="checkbox" id="scales" name="scales"
-       checked>
-        <label for="scales">Homme</label>
-    </div>
-    
-    <div>
-        <input type="checkbox" id="horns" name="horns">
-        <label for="horns">Femme</label>
-    </div>
+        <input type="radio" id="huey" name="drone" value="huey"
+               checked>
+        <label for="huey">Homme</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="dewey" name="drone" value="dewey">
+        <label for="dewey">Femme</label>
+      </div>
 
       <div>
           <label for="prenom">Prénom</label>
@@ -68,24 +68,24 @@
 
     <div>
         <label for="numérosécuritésocial">Numéro Sécurité Social</label>
-        <input type="number" id="numerosecuritesocial" name="user_numerosecuritesocial">
+        <input type="number" id="numero" name="user_numerosecuritesocial">
     </div>
 
     <div>
         <label for="numérodepasseport">Numéro de Passeport</label>
-        <input type="number" id="numeropasseport" name="user_numeropasseport">
+        <input type="number" id="numeropasse" name="user_numeropasseport">
     </div>
 
     <div>
         <label for="start">Date de Délivrance du passeport</label>
-        <input type="date" id="start" name="trip-name"
+        <input type="date" id="start" name="trip-names"
         value="2021-12-22"
         min="2000-12-31" max="2025-12-31">
     </div>
 
     <div>
         <label for="start">Date de validité du passeport</label>
-        <input type="date" id="start" name="trip-name"
+        <input type="date" id="starts" name="trip-name"
         value="2021-12-22"
         min="2000-12-31" max="2025-12-31">
     </div>
